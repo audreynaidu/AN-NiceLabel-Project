@@ -1,5 +1,3 @@
-/testLabels
-/Label_CSV/** 
-/Item_Attributes/** 
+/testLabels 
 /__pycache__
 /ArenaLogin/sample_credentials.txt
