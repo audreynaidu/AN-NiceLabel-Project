@@ -20,6 +20,10 @@ VS_Code(Optional): https://code.visualstudio.com/download
 With the popup open, enter any part number and it will search the Arena database for the attributes of that part. If the part number is invalid, the text-box will state that. If it is valid, it will print out the part number you typed. You can display the information of the most recent part number you searched or export the attributes to a .csv file. When exporting, you can also select the option to export all the part numbers you have searched in that session. 
 
 The .csv files are located in the Label_CSV folder.
+When exporting all part number attributes, the file format will be:
+  current day and time: YYYY-MM-DD_HH-MM-SS.csv
+When exporting just one part number's attributes, the file format will be:
+  part-number.csv
 
 # Features
 Multiple Labels can be searched at the same time. Separate each part number to be searched with a comma.
